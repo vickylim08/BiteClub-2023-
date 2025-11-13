@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BITE CLUB | HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    	body{
+		z-index: -1;
+		background: url(image/about.jpg);
+	}
+
+
+	.navigation{
+		width:100vw;
+		height:8vh;
+		color:black;
+		background-color: yellow;
+		z-index: -1
+	}
+
+	.navigation ul{
+		list-style-type: none;
+		margin: 0;
+		float:right;
+	}
+
+	.navigation li{
+		display:inline;
+	}
+
+	.navigation a{
+		text-decoration: none;
+		line-height: 8vh;
+		padding: 3vw;
+		color:black;
+		font-family: tw cen mt;
+		font-size: 20px;
+	}
+
+	.navigation img{
+		float:left;
+		padding-left: 2vw;
+	}
+
+	
+
+	a:hover{
+		font-weight: bolder;
+		color:darkblue;
+		font-size: 22px;
+	}
+
+	.signin{
+		width:500px;
+		height:auto;
+		margin:auto;
+		background-color: yellow;
+		margin-top: 50px;
+		border-radius: 20px;
+		padding:20px;
+	}
+
+	.headlogo img{
+		margin-left:140px;
+	}
+
+	.signin h1{
+		font-family: tw cen mt;
+		color:black;
+		text-align: center;
+		text-decoration: underline;
+	}
+
+	#label{
+		font-family: tw cen mt;
+		font-size: 20px;
+		margin-left: 30px;
+	}
+
+	#username, #email, #password, #cpassword{
+		width:420px;
+		border-radius: 5px;
+		height: 30px;
+		margin-left: 30px;
+	}
+
+	.signin h2{
+		font-size: 15px;
+		font-family: tw cen mt;
+		text-align: center;
+	}
+
+	.button{
+		width: 200px;
+		height: 50px;
+		border-radius: 10px;
+		background-color: white;
+		line-height: 50px;
+		margin:auto;
+		margin-bottom: 40px;
+	}
+
+	.button h1{
+		text-decoration: none;
+	}
+
+	.signin a:hover{
+		font-size: 16px;
+	}
+
+	
+	@media only screen and (max-width: 800px){
+		.navigation{
+			height:40vh;
+			width:100vw;
+			background-color: yellow;
+		}
+		.navigation li{
+			display: block;
+			text-align: center;
+		}
+
+
+		.navigation ul{
+			padding-left: 12vw;
+		}
+
+		.navigation a{
+			padding-right: 45vw;
+
+		}
+
+		.navigation img{
+			margin-right: 20vw;
+			margin-left: 30vw;
+		}
+
+
+	}
+
+	@media only screen and (max-width: 960px){
+		.navigation{
+			height:40vh;
+			width:100vw;
+			background-color: yellow;
+		}
+		.navigation li{
+			display: block;
+			text-align: center;
+		}
+
+
+		.navigation ul{
+			padding-left: 12vw;
+		}
+
+		.navigation a{
+			padding-right: 45vw;
+
+		}
+
+		.navigation img{
+			margin-right: 20vw;
+			margin-left: 30vw;
+		}
+
+	}
+	
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="navigation">
+			<nav>
+					<img src="image/logo.png">
+				<ul>
+					<li id="bar"><a href="index.html">HOME</li></a>
+					<li id="bar"><a href="recipes.html">RECIPES</li></a>
+					<li id="bar"><a href="about.html">ABOUT</li></a>
+					<li id="bar"><a href="signin.html"><b>SIGN UP</b></li></a>
+				</ul>
+			</nav>
+		</div>
+		<div class="signin">
+			<div class="headlogo">
+				<img src="image/logo.png">
+				<h1>Sign In</h1>
+			</div>
+			<form>
+				<table>
+					<tr>
+						<td><label for="username" id="label">Username</label></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="username" id="username" required></td>
+					</tr>
+					<tr>
+						<td><label for="email" id="label">Email Address</label></td>
+					</tr>
+					<tr>
+						<td><input type="text" name="email" id="email" required></td>
+					</tr>
+					<tr>
+						<td><label for="password" id="label">Password</label></td>
+					</tr>
+					<tr>
+						<td><input type="password" name="password" id="password" required></td>
+					</tr>
+					<tr>
+						<td><label for="cpassword" id="label">Confirm Password</label></td>
+					</tr>
+					<tr>
+						<td><input type="password" name="cpassword" id="cpassword" required></td>
+					</tr>
+					<tr>
+						<td><h2>Already have an account? <a href="signin.html"><u>Sign in here.</u></a></h2></td>
+					<tr>
+						<td>
+							<div class="button">
+								<h1>Sign In</h1>
+							</div>
+						</td>
+					</tr>
+				</table>
+			</form>
+		
+	</div>
+
+</body>
+</html>
+

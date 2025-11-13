@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BITE CLUB | HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    	body{
+		z-index: -1;
+	}
+
+
+	.navigation{
+		width:100vw;
+		height:8vh;
+		color:black;
+		background-color: yellow;
+		z-index: -1
+	}
+
+	ul{
+		list-style-type: none;
+		margin: 0;
+		float:right;
+	}
+
+	li{
+		display:inline;
+	}
+
+	.navigation a{
+		text-decoration: none;
+		line-height: 8vh;
+		padding: 3vw;
+		color:black;
+		font-family: tw cen mt;
+		font-size: 20px;
+	}
+
+	.navigation img{
+		float:left;
+		padding-left: 2vw;
+	}
+
+	
+
+	a:hover{
+		font-weight: bolder;
+		color:darkblue;
+		font-size: 22px;
+	}
+
+	.quote{
+		width:50vw;
+		height:auto;
+		background-color: lightgrey;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.quote h1{
+		font-family: roboto;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.grid-container{
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		grid-gap:2vw;
+		padding:10px;
+		margin-left:5vw;
+		margin-right: 5vw;
+		text-align: center;
+	}
+
+	.grid-container img{
+		width:300px;
+	}
+
+	.intro h1{
+		font-size: 50px;
+		text-align: center;
+		font-family: tw cen mt;
+	}
+
+	#capt{
+		background-color: yellow;
+		font-family: tw cen mt;
+		font-size: 22px;
+		padding: 7px;
+	}
+
+	.intro a{
+		text-decoration: none;
+
+	}
+
+	.seem{
+			font-family: tw cen mt;
+			text-decoration: none;
+			color:black
+
+	}
+
+	
+	@media only screen and (max-width: 800px){
+		.navigation{
+			height:40vh;
+			width:100vw;
+			background-color: yellow;
+		}
+		.navigation li{
+			display: block;
+			text-align: center;
+		}
+
+
+		.navigation ul{
+			padding-left: 12vw;
+		}
+
+		.navigation a{
+			padding-right: 45vw;
+
+		}
+
+		.navigation img{
+			margin-right: 20vw;
+			margin-left: 30vw;
+		}
+
+		.grid-container{
+			display: inline;
+			grid-template-columns: 300px;
+		}
+
+		#capt{
+			width:300px;
+			margin-right: auto;
+			margin-left: auto;
+			margin-bottom: 50px;
+		}
+
+
+
+	}
+
+	@media only screen and (max-width: 960px){
+		.navigation{
+			height:40vh;
+			width:100vw;
+			background-color: yellow;
+		}
+		.navigation li{
+			display: block;
+			text-align: center;
+		}
+
+
+		.navigation ul{
+			padding-left: 12vw;
+		}
+
+		.navigation{
+			padding-right: 45vw;
+
+		}
+
+		.navigation img{
+			margin-right: 20vw;
+			margin-left: 30vw;
+		}
+
+		.grid-container{
+			display: grid;
+			grid-template-columns: 	auto auto;	
+		}
+	}
+
+	p{
+		text-align: center;
+		font-size: 40px;
+	}
+
+	p:hover{
+		text-decoration: underline;
+	}
+	
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="navigation">
+			<nav>
+					<img src="image/logo.png">
+				<ul>
+					<li id="bar"><a href="index.html"><b>HOME</b></li></a>
+					<li id="bar"><a href="recipes.html">RECIPES</li></a>
+					<li id="bar"><a href="about.html">ABOUT</li></a>
+					<li id="bar"><a href="signup.html">SIGN UP</li></a>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="content">
+			<div class="quote">
+				<h1>"Eating is a necessity, but cooking is an art."</h1>
+			</div>
+
+			<div class="intro">
+				<h1>Our Top-Rated Recipes</h1>
+				<div class="grid-container">
+					<div>
+						<div><img src="image/bmuffin.jpg"></div>
+						<div id="capt"><a href="breakfast.html">Lemon Poppyseed Zucchini Muffins</div></a>
+					</div>
+					<div>
+						<div><img src="image/lcheesesoup.jpg"></div>
+						<div id="capt"><a href="lunch1.html">Basic + Awesome Broccoli Cheese Soup</a></div>
+					</div>
+					<div>
+						<div><img src="image/dportobello.jpg"></div>
+						<div id="capt"><a href="dinner1.html">Portobello French Dip with Horseradish Aioli</a></div>
+					</div>
+					<div>
+						<div><img src="image/degingerbread.jpg"></div>
+						<div id="capt"><a href="desserts1.html">Soft Gingerbread Cookies with Maple Glaze</a></div>
+					</div>
+			</div>
+
+			<a href="recipes.html" class="seem"><p>See More</p></a>
+
+
+		</div>
+	</div>
+
+</body>
+</html>
+

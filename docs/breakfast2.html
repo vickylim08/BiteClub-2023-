@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BITE CLUB | HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    	body{
+		z-index: -1;
+	}
+
+
+	.navigation{
+		width:100vw;
+		height:8vh;
+		color:black;
+		background-color: yellow;
+		z-index: -1
+	}
+
+	.navigation ul{
+		list-style-type: none;
+		margin: 0;
+		float:right;
+	}
+
+	.navigation li{
+		display:inline;
+	}
+
+	.navigation a{
+		text-decoration: none;
+		line-height: 8vh;
+		padding: 3vw;
+		color:black;
+		font-family: tw cen mt;
+		font-size: 20px;
+	}
+
+	.navigation img{
+		float:left;
+		padding-left: 2vw;
+	}
+
+	
+
+	.navigation a:hover{
+		font-weight: bolder;
+		color:darkblue;
+		font-size: 22px;
+	}
+
+	.quote{
+		width:50vw;
+		height:auto;
+		background-color: lightgrey;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.quote h1{
+		font-family: roboto;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.intro h1{
+		font-size: 50px;
+		text-align: center;
+		font-family: tw cen mt;
+	}
+
+	.header h1, h2{
+		text-align: center;
+		font-family: tw cen mt;
+		color:black;
+	}
+
+	.header h1{
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+	}
+	
+	.image img{
+		width:100vw;
+		height: 30vh;
+		object-fit: cover;
+		margin-top: auto;
+		margin-left: auto;
+		margin-bottom: 50px;
+	}
+
+	.heading a{
+		padding: 0;
+		font-family: tw cen mt;
+		font-size: 30px;
+	}
+
+	.heading a:hover{
+		font-family: tw cen mt;
+		font-size: 32px;
+		text-decoration: underline;
+	}
+
+	.exp h1{
+		font-size: 60px;
+		font-family: tw cen mt;
+		padding-left: 20px;
+		text-align: center;
+		color:brown;
+	}
+
+	.heading{
+		padding-left: 20px;
+	}
+
+
+	.lemon img{
+		width: 100vw;
+		height: 60vh;
+		object-fit: cover;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.exp h2{
+		text-align: left;
+		font-size: 40px;
+		text-decoration: underline;
+		padding-left: 20px;
+	}
+
+	.exp ul{
+		list-style-type:  disc;
+		font-family: tw cen mt;
+		font-size: 30px;
+		padding-left: 50px;
+	}
+
+	.exp ol{
+		font-family: tw cen mt;
+		font-size: 30px;
+		padding-left: 50px;
+	}
+
+	.video {
+		font-size: 40px;
+		text-decoration: underline;
+		padding-left: 20px;
+		font-family: tw cen mt;
+	}
+
+	.video:hover{
+		font-size: 42px;
+		text-decoration: bolder;
+		padding-left: 20px;
+		font-family: tw cen mt;
+		color:blue	;
+	}
+
+	.exp{
+		margin: 20px;
+	}
+
+	.exp h3{
+		font-family: tw cen mt;
+		padding:0;
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.heading h1{
+		font-family: tw cen mt;
+		font-size: 30px;
+	}
+
+	.content a{
+		text-decoration: none;
+		color: black;
+	}
+
+	.next{
+		width:auto;
+		height: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: yellow;
+		color:black;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+		border-radius: 10px;
+		float:right;
+		font-family: tw cen mt;
+		font-size: 20px;
+	}
+
+	.next:hover{
+		width:auto;
+		height: 50px;
+		background-color: orange;
+		color:white;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+		border-radius: 10px;
+		float:right;
+		font-family: tw cen mt;
+		font-size: 22px;
+
+	}
+
+		.previous{
+		width:auto;
+		height: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: yellow;
+		color:black;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+		border-radius: 10px;
+		float:left;
+		font-family: tw cen mt;
+		font-size: 20px;
+		margin-left: 20px;
+	}
+
+	.previous:hover{
+		width:auto;
+		height: 50px;
+		background-color: orange;
+		color:white;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+		border-radius: 10px;
+		float:left;
+		font-family: tw cen mt;
+		font-size: 22px;
+		margin-left: 20px;
+
+	}
+
+	@media only screen and (max-width: 800px){
+		.navigation{
+			height:40vh;
+			width:100vw;
+			background-color: yellow;
+		}
+		.navigation li{
+			display: block;
+			text-align: center;
+		}
+
+
+		.navigation ul{
+			padding-left: 12vw;
+		}
+
+		.navigation a{
+			padding-right: 45vw;
+
+		}
+
+		.navigation img{
+			margin-right: 20vw;
+			margin-left: 30vw;
+		}
+	}
+
+
+
+
+
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="navigation">
+			<nav>
+					<img src="image/logo.png">
+				<ul>
+					<li id="bar"><a href="index.html">HOME</li></a>
+					<li id="bar"><a href="recipes.html"><b>RECIPES</b></li></a>
+					<li id="bar"><a href="about.html">ABOUT</li></a>
+					<li id="bar"><a href="signup.html">SIGN UP</li></a>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="content">
+			<div class="heading">
+					<h1 class="text1"><a href="recipes.html">Recipes</a> > Breakfast</h1>
+			</div>
+			<div class="lemon">
+				<img src="image\blemonbread.jpg">
+			</div>
+			<div class="exp">
+				<h1>Springy Blueberry Lemon Bread</h1>
+				<h3>Total Time: 1 hour 15 minutes</h3>
+				<h3>Yield: 8-10 slices</h3>
+				<h2>Ingredients</h2>
+				<ul>
+					<li>1/2 cup, room temperature</li>
+					<li>1 cup white sugar</li>
+					<li>juice and zest of one lemon</li>
+					<li>2 eggs</li>
+					<li>1 1/2 cups flour</li>
+					<li>1 teaspoon baking powder</li>
+					<li>1 teaspoon salt</li>
+					<li>1/2 cup milk</li>
+					<li>1 cup blueberries – I used frozen without thawing them.</li>s
+					<li>Butter with Olive Oil and Sea Salt for topping!</li>
+				</ul>
+
+				<h2>Instructions</h2>
+				<ol>
+					<li><b>Prep</b>: Preheat the oven to 350 degrees. Line a loaf pan with parchment paper.</li>
+					<li><b>Mix Part One</b>: Cream the butter and sugar until fluffy. Mix in the lemon juice, lemon zest, and eggs.</li>
+					<li><b>Mix Part Two</b>: Stir in the flour, baking powder, salt, and milk until the batter is mixed. Gently fold in the blueberries.</li>
+					<li><b>Bake</b>: Pour batter into prepared pan. Bake for about one hour – the top should be golden brown and spring back when you touch it.</li>
+					<li><b>Serve</b>: Let cool. Slice, slather on the butter with olive oil, and serve!</li>
+			</div>
+
+			<a href="https://youtu.be/3kqufiSyxR4" target="_blank"><h2 class="video"> Click here to watch the tutorial video</h2></a>
+
+			<div class="previous">
+				<a href="breakfast.html">Previous Page</a>
+			</div>
+			<div class="next">
+				<a href="breakfast3.html">Next Page 
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>
+

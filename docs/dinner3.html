@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BITE CLUB | HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    	body{
+		z-index: -1;
+	}
+
+
+	.navigation{
+		width:100vw;
+		height:8vh;
+		color:black;
+		background-color: yellow;
+		z-index: -1
+	}
+
+	.navigation ul{
+		list-style-type: none;
+		margin: 0;
+		float:right;
+	}
+
+	.navigation li{
+		display:inline;
+	}
+
+	.navigation a{
+		text-decoration: none;
+		line-height: 8vh;
+		padding: 3vw;
+		color:black;
+		font-family: tw cen mt;
+		font-size: 20px;
+	}
+
+	.navigation img{
+		float:left;
+		padding-left: 2vw;
+	}
+
+	
+
+	.navigation a:hover{
+		font-weight: bolder;
+		color:darkblue;
+		font-size: 22px;
+	}
+
+	.quote{
+		width:50vw;
+		height:auto;
+		background-color: lightgrey;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.quote h1{
+		font-family: roboto;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.intro h1{
+		font-size: 50px;
+		text-align: center;
+		font-family: tw cen mt;
+	}
+
+	.header h1, h2{
+		text-align: center;
+		font-family: tw cen mt;
+		color:black;
+	}
+
+	.header h1{
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+	}
+	
+	.image img{
+		width:100vw;
+		height: 30vh;
+		object-fit: cover;
+		margin-top: auto;
+		margin-left: auto;
+		margin-bottom: 50px;
+	}
+
+	.heading a{
+		padding: 0;
+		font-family: tw cen mt;
+		font-size: 30px;
+	}
+
+	.heading a:hover{
+		font-family: tw cen mt;
+		font-size: 32px;
+		text-decoration: underline;
+	}
+
+	.exp h1{
+		font-size: 60px;
+		font-family: tw cen mt;
+		padding-left: 20px;
+		text-align: center;
+		color:brown;
+	}
+
+	.heading{
+		padding-left: 20px;
+	}
+
+
+	.sheet img{
+		width: 100vw;
+		height: 60vh;
+		object-fit: cover;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.exp h2{
+		text-align: left;
+		font-size: 40px;
+		text-decoration: underline;
+		padding-left: 20px;
+	}
+
+	.exp ul{
+		list-style-type:  disc;
+		font-family: tw cen mt;
+		font-size: 30px;
+		padding-left: 50px;
+	}
+
+	.exp ol{
+		font-family: tw cen mt;
+		font-size: 30px;
+		padding-left: 50px;
+	}
+
+	.video {
+		font-size: 40px;
+		text-decoration: underline;
+		padding-left: 20px;
+		font-family: tw cen mt;
+	}
+
+	.video:hover{
+		font-size: 42px;
+		text-decoration: bolder;
+		padding-left: 20px;
+		font-family: tw cen mt;
+		color:blue	;
+	}
+
+	.exp{
+		margin: 20px;
+	}
+
+	.exp h3{
+		font-family: tw cen mt;
+		padding:0;
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.heading h1{
+		font-family: tw cen mt;
+		font-size: 30px;
+	}
+
+	.content a{
+		text-decoration: none;
+		color: black;
+	}
+
+		.previous{
+		width:auto;
+		height: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: yellow;
+		color:black;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+		border-radius: 10px;
+		float:left;
+		font-family: tw cen mt;
+		font-size: 20px;
+		margin-left: 20px;
+		margin-bottom: 10px;
+	}
+
+	.previous:hover{
+		width:auto;
+		height: 50px;
+		background-color: orange;
+		color:white;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+		border-radius: 10px;
+		float:left;
+		font-family: tw cen mt;
+		font-size: 22px;
+		margin-left: 20px;
+		margin-bottom: 10px;
+
+	}
+
+	.back{
+		width:auto;
+		height: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: orange;
+		color:black;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+		border-radius: 10px;
+		float:right;
+		font-family: tw cen mt;
+		font-size: 20px;
+	}
+
+	.back:hover{
+		width:auto;
+		height: 50px;
+		background-color: yellow;
+		color:white;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+		border-radius: 10px;
+		float:right;
+		font-family: tw cen mt;
+		font-size: 22px;
+}
+	@media only screen and (max-width: 800px){
+		.navigation{
+			height:40vh;
+			width:100vw;
+			background-color: yellow;
+		}
+		.navigation li{
+			display: block;
+			text-align: center;
+		}
+
+
+		.navigation ul{
+			padding-left: 12vw;
+		}
+
+		.navigation a{
+			padding-right: 45vw;
+
+		}
+
+		.navigation img{
+			margin-right: 20vw;
+			margin-left: 30vw;
+		}
+	}
+
+
+
+
+
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="navigation">
+			<nav>
+					<img src="image/logo.png">
+				<ul>
+					<li id="bar"><a href="index.html">HOME</li></a>
+					<li id="bar"><a href="recipes.html"><b>RECIPES</b></li></a>
+					<li id="bar"><a href="about.html">ABOUT</li></a>
+					<li id="bar"><a href="signup.html">SIGN UP</li></a>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="content">
+			<div class="heading">
+					<h1 class="text1"><a href="recipes.html">Recipes</a> > Dinner</h1>
+			</div>
+			<div class="sheet">
+				<img src="image\dsheet.jpg">
+			</div>
+			<div class="exp">
+				<h1>Sheet Pan Meatballs with Tomato Salad and Green Sauce</h1>
+				<h3>Total Time: 45 minutes</h3>
+				<h3>Yield: 4 servings</h3>
+				<h2>Ingredients</h2>
+				<ul>
+					<li>2 garlic cloves</li>
+					<li>1 cup parsley</li>
+					<li>1 cup cilantro</li>
+					<li>1/4 cup capers or pitted castelvetrano olives</li>
+					<li>1/2 cup walnuts</li>
+					<li>juice and zest of a lemon</li>
+					<li>1/2 cup olive oil</li>
+					<li>salt to taste</li>
+					<li>1 egg</li>
+					<li>1 tablespoon paprika</li>
+					<li> 1 teaspoon salt</li>
+					<li>1 cup panko</li>
+					<li>1 lb. ground beef (the ButcherBox grass-fed grass-finished ground beef is top-notch)</li>
+					<li>1 small baguette for serving</li>
+					<li>1 cup tzatziki (I used store-bought)</li>
+					<li>1 pound cherry or grape tomatoes, halved or quartered</li>
+					<li>1 clove garlic, finely grated</li>
+					<li>2 tablespoons olive oil </li>
+					<li>1 tablespoon vinegar or lemon juice </li>
+					<li>1 tablespoon freshly minced herbs (I like parsley)</li>
+					<li>salt to taste (I use about 1/2 – 3/4 teaspoon kosher salt)</li>
+					<li>1 cucumber, sliced</li>
+				</ul>
+
+				<h2>Instructions</h2>
+				<ol>
+					<li>Preheat the oven to 425 degrees.</li> 
+					<li>Make your tomato salad and throw in some sliced cucumbers too!</li>
+					<li>Pulse the garlic, parsley, cilantro, capers, and walnuts in a food processor until chopped very finely (but not creamy / not a paste – you just want a fine chop! and you could do this by hand as well). This is your flavor base!</li>
+					<li>Transfer half of the flavor base to a large bowl for the meatballs. Add all other meatball ingredients and mix thoroughly with your hands to combine. Roll into balls and bake for 10-12 minutes.</li>
+					<li>Add the other half of the flavor base to a smaller bowl; add lemon zest and lemon juice, olive oil, and salt and pepper to taste to make your sauce. Add red pepper flakes for heat if you want. It should look similar to a loose pesto or chimichurri.</li>
+					<li>Serve meatballs over a swipe of tzatziki, with a hunk of rustic bread and a scoop of tomato salad. And drizzle, dip, and swish all of it through that punchy green sauce! BIG, BIG FLAVORS! So good!</li>
+				</ol>
+			</div>
+
+			<a href="https://youtube.com/shorts/Z8YqzscGARk?si=BKc-rjQWXDwoGKQK" target="_blank"><h2 class="video"> Click here to watch the tutorial video</h2></a>
+
+			<div class="previous">
+				<a href="dinner2.html">Previous Page</a>
+			</div>
+			
+			<div class="back">
+				<a href="recipes.html">Back to Recipes Page</a>
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>
+

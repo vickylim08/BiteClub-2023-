@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BITE CLUB | HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    	body{
+		z-index: -1;
+	}
+
+
+	.navigation{
+		width:100vw;
+		height:8vh;
+		color:black;
+		background-color: yellow;
+		z-index: -1
+	}
+
+	.navigation ul{
+		list-style-type: none;
+		margin: 0;
+		float:right;
+	}
+
+	.navigation li{
+		display:inline;
+	}
+
+	.navigation a{
+		text-decoration: none;
+		line-height: 8vh;
+		padding: 3vw;
+		color:black;
+		font-family: tw cen mt;
+		font-size: 20px;
+	}
+
+	.navigation img{
+		float:left;
+		padding-left: 2vw;
+	}
+
+	
+
+	.navigation a:hover{
+		font-weight: bolder;
+		color:darkblue;
+		font-size: 22px;
+	}
+
+	.quote{
+		width:50vw;
+		height:auto;
+		background-color: lightgrey;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.quote h1{
+		font-family: roboto;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.intro h1{
+		font-size: 50px;
+		text-align: center;
+		font-family: tw cen mt;
+	}
+
+	.header h1, h2{
+		text-align: center;
+		font-family: tw cen mt;
+		color:black;
+	}
+
+	.header h1{
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+	}
+	
+	.image img{
+		width:100vw;
+		height: 30vh;
+		object-fit: cover;
+		margin-top: auto;
+		margin-left: auto;
+		margin-bottom: 50px;
+	}
+
+	.heading a{
+		padding: 0;
+		font-family: tw cen mt;
+		font-size: 30px;
+	}
+
+	.heading a:hover{
+		font-family: tw cen mt;
+		font-size: 32px;
+		text-decoration: underline;
+	}
+
+	.exp h1{
+		font-size: 60px;
+		font-family: tw cen mt;
+		padding-left: 20px;
+		text-align: center;
+		color:brown;
+	}
+
+	.heading{
+		padding-left: 20px;
+	}
+
+
+	.tofu img{
+		width: 100vw;
+		height: 60vh;
+		object-fit: cover;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.exp h2{
+		text-align: left;
+		font-size: 40px;
+		text-decoration: underline;
+		padding-left: 20px;
+	}
+
+	.exp ul{
+		list-style-type:  disc;
+		font-family: tw cen mt;
+		font-size: 30px;
+		padding-left: 50px;
+	}
+
+	.exp ol{
+		font-family: tw cen mt;
+		font-size: 30px;
+		padding-left: 50px;
+	}
+
+	.video {
+		font-size: 40px;
+		text-decoration: underline;
+		padding-left: 20px;
+		font-family: tw cen mt;
+	}
+
+	.video:hover{
+		font-size: 42px;
+		text-decoration: bolder;
+		padding-left: 20px;
+		font-family: tw cen mt;
+		color:blue	;
+	}
+
+	.exp{
+		margin: 20px;
+	}
+
+	.exp h3{
+		font-family: tw cen mt;
+		padding:0;
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.heading h1{
+		font-family: tw cen mt;
+		font-size: 30px;
+	}
+
+	.content a{
+		text-decoration: none;
+		color: black;
+	}
+
+		.previous{
+		width:auto;
+		height: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: yellow;
+		color:black;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+		border-radius: 10px;
+		float:left;
+		font-family: tw cen mt;
+		font-size: 20px;
+		margin-left: 20px;
+		margin-bottom: 10px;
+	}
+
+	.previous:hover{
+		width:auto;
+		height: 50px;
+		background-color: orange;
+		color:white;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+		border-radius: 10px;
+		float:left;
+		font-family: tw cen mt;
+		font-size: 22px;
+		margin-left: 20px;
+		margin-bottom: 10px;
+
+	}
+
+	.back{
+		width:auto;
+		height: 50px;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: orange;
+		color:black;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+		border-radius: 10px;
+		float:right;
+		font-family: tw cen mt;
+		font-size: 20px;
+	}
+
+	.back:hover{
+		width:auto;
+		height: 50px;
+		background-color: yellow;
+		color:white;
+		line-height: 50px;
+		text-align: center;
+		font-weight: bolder;
+		border-radius: 10px;
+		float:right;
+		font-family: tw cen mt;
+		font-size: 22px;
+
+	}
+
+	@media only screen and (max-width: 800px){
+		.navigation{
+			height:40vh;
+			width:100vw;
+			background-color: yellow;
+		}
+		.navigation li{
+			display: block;
+			text-align: center;
+		}
+
+
+		.navigation ul{
+			padding-left: 12vw;
+		}
+
+		.navigation a{
+			padding-right: 45vw;
+
+		}
+
+		.navigation img{
+			margin-right: 20vw;
+			margin-left: 30vw;
+		}
+	}
+
+
+
+
+
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="navigation">
+			<nav>
+					<img src="image/logo.png">
+				<ul>
+					<li id="bar"><a href="index.html">HOME</li></a>
+					<li id="bar"><a href="recipes.html"><b>RECIPES</b></li></a>
+					<li id="bar"><a href="about.html">ABOUT</li></a>
+					<li id="bar"><a href="signup.html">SIGN UP</li></a>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="content">
+			<div class="heading">
+					<h1 class="text1"><a href="recipes.html">Recipes</a> > Lunch</h1>
+			</div>
+			<div class="tofu">
+				<img src="image\ltofu.jpg">
+			</div>
+			<div class="exp">
+				<h1>Tofu and Brown Rice Lettuce Wraps with Peanut Sauce</h1>
+				<h3>Total Time: 20 minutes</h3>
+				<h3>Yield: 4-5 servings</h3>
+				<h2>Ingredients</h2>
+				<ul>
+					<li>Olive oil</li>
+					<li>One 14-ounce block extra firm tofu – minimally pressed to remove water</li>
+					<li>about 2 cups cooked brown rice and/or quinoa or other grains – I use the 8.5 ounce precooked packages so it’s very, very easy</li>
+					<li>butter lettuce or leaf lettuce for wrapping</li>
+					<li>spicy mayo </li>
+					<li>chopped peanuts or crispy onions for topping</li>
+					<li>1/2 cup teriyaki sauce</li>
+					<li>juice of 1 orange</li>
+					<li>1/4 cup peanut butter</li>
+					<li>a squirt of Sriracha or other chile sauce if you want</li>
+				</ul>
+
+				<h2>Instructions</h2>
+				<ol>
+					<li><b>Cook the tofu</b>:Heat a few swishes of oil in a nonstick skillet over medium high heat. Add the tofu and crumble in the pan. Cook until slightly browned. While that’s cooking, whisk up all sauce ingredients in a bowl.</li>
+					<li><b>Add rice and sauce</b>:Add the rice and most of the sauce to the pan. Sauté for 5 minutes or so – just enough to get some browning / light caramelization and get everything nice and yummy. Season with salt to taste.</li>
+					<li><b>Fill and serve</b>: Spoon your tofu and brown rice filling into crispy little pieces of lettuce. Top with something crunchy (peanuts? crispy onions?) and something creamy (spicy mayo all the way) and drizzle with a little extra sauce, and now tell me this isn’t your favorite meal of the week.</li>
+				</ol>
+			</div>
+
+			<a href="https://youtu.be/H3z_7MmAOZE?si=tENMTmO513fn98o-" target="_blank"><h2 class="video"> Click here to watch the tutorial video</h2></a>
+
+			<div class="previous">
+				<a href="lunch2.html">Previous Page</a>
+			</div>
+			
+			<div class="back">
+				<a href="recipes.html">Back to Recipes Page</a>
+			</div>
+			
+		</div>
+	</div>
+
+</body>
+</html>
+

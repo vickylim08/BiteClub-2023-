@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BITE CLUB | HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+    	body{
+		z-index: -1;
+	}
+
+
+	.navigation{
+		width:100vw;
+		height:8vh;
+		color:black;
+		background-color: yellow;
+		z-index: -1
+	}
+
+	ul{
+		list-style-type: none;
+		margin: 0;
+		float:right;
+	}
+
+	li{
+		display:inline;
+	}
+
+	a{
+		text-decoration: none;
+		line-height: 8vh;
+		padding: 3vw;
+		color:black;
+		font-family: tw cen mt;
+		font-size: 20px;
+	}
+
+	.navigation img{
+		float:left;
+		padding-left: 2vw;
+	}
+
+	
+
+	a:hover{
+		font-weight: bolder;
+		color:darkblue;
+		font-size: 22px;
+	}
+
+	.quote{
+		width:50vw;
+		height:auto;
+		background-color: lightgrey;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.quote h1{
+		font-family: roboto;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.grid-container{
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		grid-gap:2vw;
+		padding:10px;
+		margin-left:5vw;
+		margin-right: 5vw;
+		text-align: center;
+	}
+
+	.intro h1{
+		font-size: 50px;
+		text-align: center;
+		font-family: tw cen mt;
+	}
+
+	#capt{
+		background-color: yellow;
+		font-family: tw cen mt;
+		font-size: 22px;
+		padding: 7px;
+	}
+
+	#capt:hover{
+		background-color: lightyellow;
+		border:2px solid yellow;
+	}
+
+	.header h1, h2{
+		text-align: center;
+		font-family: tw cen mt;
+		color:black;
+	}
+
+	.header h1{
+		border-top: 1px solid;
+		border-bottom: 1px solid;
+	}
+	
+	.image img{
+		width:100vw;
+		height: 30vh;
+		object-fit: cover;
+		margin-top: auto;
+		margin-left: auto;
+		margin-bottom: 50px;
+	}
+
+
+	@media only screen and (max-width: 800px){
+		.navigation{
+			height:40vh;
+			width:100vw;
+			background-color: yellow;
+		}
+		li{
+			display: block;
+			text-align: center;
+		}
+
+
+		ul{
+			padding-left: 12vw;
+		}
+
+		a{
+			padding-right: 45vw;
+
+		}
+
+		.navigation img{
+			margin-right: 20vw;
+			margin-left: 30vw;
+		}
+
+		.grid-container{
+			display: inline;
+			grid-template-columns: 300px;
+		}
+
+		#capt{
+			width:300px;
+			margin-right: auto;
+			margin-left: auto;
+			line-height: 50px;
+		}
+
+	}
+
+	@media only screen and (max-width: 960px){
+		.grid-container{
+			display: grid;
+			grid-template-columns: 	auto auto;	
+		}
+	}
+    </style>
+</head>
+<body>
+	<div class="container">
+		<div class="navigation">
+			<nav>
+					<img src="image/logo.png">
+				<ul>
+					<li id="bar"><a href="index.html">HOME</li></a>
+					<li id="bar"><a href="recipes.html"><b>RECIPES</b></li></a>
+					<li id="bar"><a href="about.html">ABOUT</li></a>
+					<li id="bar"><a href="signup.html">SIGN UP</li></a>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="content">
+			<div class="quote">
+				<h1>"Eating is a necessity, but cooking is an art."</h1>
+			</div>
+
+			<div class="header">
+				<h1>Recipes</h1>
+				<h2>Discover mouthwatering recipes that will transform your kitchen into a culinary haven – start cooking deliciously today!</h2>
+			</div>
+
+				<div class="grid-container">
+					<div>
+						<a href="breakfast.html"><div id="capt">Breakfast</div></a>
+					</div>
+					<div>
+						<a href="lunch1.html"><div id="capt">Lunch</div></a>
+					</div>
+					<div>
+						<a href="dinner1.html"><div id="capt">Dinner</div></a>
+					</div>
+					<div>
+						<a href="desserts1.html"><div id="capt">Desserts</div></a>
+					</div>
+			</div>
+			<div class="image">
+				<img src="image/recipe.jpg">
+			</div>
+
+		</div>
+	</div>
+
+</body>
+</html>
+
